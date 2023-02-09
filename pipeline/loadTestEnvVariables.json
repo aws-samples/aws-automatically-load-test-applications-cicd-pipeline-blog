@@ -1,0 +1,5 @@
+{
+  "LOAD_TEST_API_ENDPOINT": "https://q0w8l3mz2a.execute-api.us-east-1.amazonaws.com/prod/",
+  "AVG_RT_THRESHOLD": "1",
+  "FAILURE_THRESHOLD": "1"
+}
