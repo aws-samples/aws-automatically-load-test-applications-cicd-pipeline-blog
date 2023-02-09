@@ -1,17 +1,12 @@
-## My Project
+# Load Testing in CICD pipeline
 
-TODO: Fill this README out!
+## Pre-requisite
 
-Be sure to:
+Deploy load testing solution (https://docs.aws.amazon.com/solutions/latest/distributed-load-testing-on-aws/deployment.html)
+Obtain URL for load testing solution (value of the CloudFormation output parameter 'DLTApiEndpointD98B09AC')
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Getting started
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+Update loadTestEnvVars.json file with the load testing endpoint URL and run the following commands:
+- `cdk bootstrap`: This command would provision resources that AWS CDK needs to deploy the stack. Documentation is available [here](https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html).
+- `cdk deploy`: Deploys the specified stack

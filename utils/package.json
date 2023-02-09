@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws4-axios": "^2.4.9",
+    "typescript": "~3.9.7"
+  }
+}
